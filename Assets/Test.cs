@@ -24,7 +24,9 @@ public class Test : MonoBehaviour {
     void Start() {
         //要素数5の配列arrayを初期化する
         int[] array = { 20, 40, 50, 10, 200 };
-        for (int i=0;i<array.Length;i++){
+        //要素数分の処理を繰り返す
+        for (int i=4;i>=0;i--){
+            //コンソールに表示する
             Debug.Log(array[i]);
 
         }
